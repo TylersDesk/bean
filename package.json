@@ -1,0 +1,11 @@
+{
+  "name": "my-bp-angular",
+  "description": "Everything needed to begin a angular app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.4.0",
+    "jade": "*",
+    "less-middleware": "*"
+  }
+}

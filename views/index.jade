@@ -1,0 +1,16 @@
+doctype 5
+html(lang="en")
+	head
+		link(rel="stylesheet",href="css/bootstrap.css")
+	body
+		div.container	
+			h1(class="title") #{title}
+			p Thanks for trying the BEAN stack. This is using Bootstrap, ExpressJS, AngularJS and Node.
+			hr
+			.alert.alert-info This is a test.
+			p.well This is being rendered from /views/tyler.jade from the root folder of the app
+			button(class="btn btn-primary") Awesome, a button!
+
+		//Grab the Javascripts
+		script(src="js/lib/angular.min.js")
+		script(src="js/main.js")
